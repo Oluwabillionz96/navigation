@@ -1,0 +1,34 @@
+.navigation-section-whitebar {
+    display: flex;
+    background-color: var(--white-color);
+}
+
+.container2 {
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+.navigation-whitebar-categories {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: auto;
+    width: 400px;
+    padding-top: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.navigation-section-searchbar {
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+}
